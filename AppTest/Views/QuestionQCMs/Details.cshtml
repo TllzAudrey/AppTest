@@ -1,0 +1,36 @@
+﻿@model AppTest.Models.QuestionQCM
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>QuestionQCM</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.reponse_possible)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.reponse_possible)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.reponse_correct)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.reponse_correct)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.intitule)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.intitule)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
