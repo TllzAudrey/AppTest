@@ -5,13 +5,24 @@ using Microsoft.Extensions.Logging;
 
 namespace AppTest.Data;
 
-public class ApplicationDbContext : IdentityDbContext
+public class ApplicationDbContext : IdentityDbContext<User>
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
     {
-    }
 
+    }
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        base.OnModelCreating(builder);
+        builder.Entity<User>()
+            .HasDiscriminator<string>("Discriminator")
+            .HasValue<User>("User")
+            .HasValue<Admin>("Admin")
+            .HasValue<Gestionnaire>("Gestionnaire");
+    }
+    public DbSet<Admin> admin { get; set; }
+public DbSet<Gestionnaire> gestionnaires { get; set; }
 public DbSet<AppTest.Models.Candidat> Candidat { get; set; } = default!;
 
 public DbSet<AppTest.Models.BaseResultat> BaseResultat { get; set; } = default!;
@@ -44,3 +55,4 @@ public DbSet<AppTest.Models.QuestionQCM> QuestionQCM { get; set; } = default!;
 
 public DbSet<AppTest.Models.QuestionRedaction> QuestionRedaction { get; set; } = default!;
 }
+
