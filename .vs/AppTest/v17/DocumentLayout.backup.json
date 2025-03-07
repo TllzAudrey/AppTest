@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\telli\\Documents\\AppTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D3805133-A0E6-45DA-B8CA-7B420BD631CD}|AppTest\\AppTest.csproj|c:\\users\\telli\\documents\\apptest\\apptest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D3805133-A0E6-45DA-B8CA-7B420BD631CD}|AppTest\\AppTest.csproj|solutionrelative:apptest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3805133-A0E6-45DA-B8CA-7B420BD631CD}|AppTest\\AppTest.csproj|c:\\users\\telli\\documents\\apptest\\apptest\\models\\baseresultat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3805133-A0E6-45DA-B8CA-7B420BD631CD}|AppTest\\AppTest.csproj|solutionrelative:apptest\\models\\baseresultat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D3805133-A0E6-45DA-B8CA-7B420BD631CD}|AppTest\\AppTest.csproj|c:\\users\\telli\\documents\\apptest\\apptest\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3805133-A0E6-45DA-B8CA-7B420BD631CD}|AppTest\\AppTest.csproj|solutionrelative:apptest\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,19 +79,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AppTest\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AppTest\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T12:07:14.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseResultat.cs",
+              "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Models\\BaseResultat.cs",
+              "RelativeDocumentMoniker": "AppTest\\Models\\BaseResultat.cs",
+              "ToolTip": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Models\\BaseResultat.cs",
+              "RelativeToolTip": "AppTest\\Models\\BaseResultat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T10:20:52.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "AppTest\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "AppTest\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBAAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T10:11:27.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T10:11:27.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AppTest",
               "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\AppTest.csproj",
               "RelativeDocumentMoniker": "AppTest\\AppTest.csproj",
@@ -94,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "QuestionCode.cs",
               "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Models\\QuestionCode.cs",
               "RelativeDocumentMoniker": "AppTest\\Models\\QuestionCode.cs",
@@ -106,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "20250307094548_controller.cs",
               "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Data\\Migrations\\20250307094548_controller.cs",
               "RelativeDocumentMoniker": "AppTest\\Data\\Migrations\\20250307094548_controller.cs",
@@ -118,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BaseTest.cs",
               "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Models\\BaseTest.cs",
               "RelativeDocumentMoniker": "AppTest\\Models\\BaseTest.cs",
@@ -130,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "QuestionRedactionsController.cs",
               "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Controllers\\QuestionRedactionsController.cs",
               "RelativeDocumentMoniker": "AppTest\\Controllers\\QuestionRedactionsController.cs",
@@ -142,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "QuestionQCMsController.cs",
               "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Controllers\\QuestionQCMsController.cs",
               "RelativeDocumentMoniker": "AppTest\\Controllers\\QuestionQCMsController.cs",
@@ -154,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "QuestionCodesController.cs",
               "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Controllers\\QuestionCodesController.cs",
               "RelativeDocumentMoniker": "AppTest\\Controllers\\QuestionCodesController.cs",
@@ -166,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "AppTest\\Models\\Admin.cs",
@@ -178,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "AppTest\\Controllers\\AdminController.cs",
@@ -190,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "EntreprisesController.cs",
               "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Controllers\\EntreprisesController.cs",
               "RelativeDocumentMoniker": "AppTest\\Controllers\\EntreprisesController.cs",
@@ -202,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CandidatsController.cs",
               "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Controllers\\CandidatsController.cs",
               "RelativeDocumentMoniker": "AppTest\\Controllers\\CandidatsController.cs",
@@ -214,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Program.cs",
               "RelativeDocumentMoniker": "AppTest\\Program.cs",
@@ -226,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ResultatCampagnesController.cs",
               "DocumentMoniker": "C:\\Users\\telli\\Documents\\AppTest\\AppTest\\Controllers\\ResultatCampagnesController.cs",
               "RelativeDocumentMoniker": "AppTest\\Controllers\\ResultatCampagnesController.cs",
